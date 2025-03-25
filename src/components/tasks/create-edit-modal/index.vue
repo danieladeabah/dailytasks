@@ -53,6 +53,7 @@ import { createATask as texts_a } from '@/constants/texts.json'
 import { encodeBase62 } from '@/utils/encodeBase62'
 import type { Task } from '~/types/types'
 import { useUser } from '@/composables/useUser'
+import { getMinDate } from '~/utils/minDate'
 
 const tasksStore = useTasksStore()
 const { userInfo } = useUser()
