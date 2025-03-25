@@ -51,6 +51,7 @@ import { useTasksStore } from '@/store/tasks'
 import type { Task } from '@/types/types'
 import { useAuth } from '~/composables/useAuth'
 import { useTaskDetails } from '~/composables/useTaskDetails'
+import { encodeBase62 } from '~/utils/encodeBase62'
 
 const route = useRoute()
 const selectedTaskId = route.params.tasksId as string
