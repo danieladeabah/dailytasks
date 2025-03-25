@@ -61,6 +61,7 @@ import { createATask as texts_a } from '@/constants/texts.json'
 import { useTasksStore } from '@/store/tasks'
 import type { Task } from '@/types/types'
 import { useTaskDetails } from '~/composables/useTaskDetails'
+import { calculateTaskProgress } from '~/utils/calclulateTaskPercentage'
 
 const props = defineProps({
   task: {
