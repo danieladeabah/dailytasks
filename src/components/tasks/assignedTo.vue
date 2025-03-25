@@ -106,6 +106,8 @@ import {
 import { useTasksStore } from '@/store/tasks'
 import { useTaskDetails } from '~/composables/useTaskDetails'
 import { useAuth } from '@/composables/useAuth'
+import { isValidEmail } from '@/utils/isValidEmail'
+import { assigneesEncodeBase62 } from '@/utils/encodeBase62'
 
 const route = useRoute()
 const tasksStore = useTasksStore()
