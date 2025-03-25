@@ -44,6 +44,7 @@
 import { getProgressColor } from '@/utils/progressColor'
 import { projectActivity as texts_c } from '@/constants/texts.json'
 import type { Task } from '@/types/types'
+import { formatDate } from '@/utils/minDate'
 
 const route = useRoute()
 
