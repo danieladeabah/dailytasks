@@ -76,6 +76,7 @@ import { getProgressColor } from '@/utils/progressColor'
 import { useTasksStore } from '@/store/tasks'
 import { useUser } from '~/composables/useUser'
 import { useAuth } from '~/composables/useAuth'
+import { formatDate } from '~/utils/minDate'
 
 const tasksStore = useTasksStore()
 const route = useRoute()
