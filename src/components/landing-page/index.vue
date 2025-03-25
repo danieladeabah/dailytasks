@@ -2,6 +2,4 @@
   <LandingPageHero />
   <LandingPageBenefit />
   <LandingPageHowItWorks />
-  <LandingPageReviews />
-  <NavigationFooterDevCTA />
 </template>
