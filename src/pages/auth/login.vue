@@ -64,6 +64,7 @@
 <script setup lang="ts">
 import { useAuthenticationStore } from '~/store/auth'
 import { authentication as text } from '@/constants/texts.json'
+import { isValidEmail } from '~/utils/isValidEmail'
 
 const email = ref('')
 const password = ref('')
