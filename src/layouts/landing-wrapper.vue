@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container mx-auto w-full rounded-none bg-white shadow-none md:rounded-xl lg:w-full lg:rounded-xl"
+    class="container mx-auto w-full rounded-none bg-white shadow-none md:rounded-xl lg:my-14 lg:w-full lg:rounded-xl"
   >
     <CommonLoaderSkeleton v-if="loading" />
     <div v-else>
