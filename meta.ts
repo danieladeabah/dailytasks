@@ -1,4 +1,4 @@
-export const metaConfig = {
+export const meta = {
   title: 'Tasks',
   link: [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },

@@ -5,8 +5,8 @@
 
 <script setup lang="ts">
 import { useNotificationWatcher } from '@/composables/useNotificationWatcher'
-import { metaConfig } from '~~/metaConfig'
+import { meta } from '~~/meta'
 
-useHead(metaConfig)
+useHead(meta)
 useNotificationWatcher()
 </script>
