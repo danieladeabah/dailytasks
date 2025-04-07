@@ -3,7 +3,7 @@
     <h1 class="mb-6 text-3xl font-bold">Privacy Policy</h1>
 
     <p class="mb-4">
-      At ./dailytasks, your privacy is of utmost importance to us. This Privacy
+      At Tasks, your privacy is of utmost importance to us. This Privacy
       Policy explains how we collect, use, and protect your information when you
       use our services.
     </p>
