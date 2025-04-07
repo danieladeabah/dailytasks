@@ -1,5 +1,5 @@
 export const metaConfig = {
-  title: 'Tasks',
+  title: './dailyTasks',
   link: [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     {
@@ -17,7 +17,7 @@ export const metaConfig = {
     {
       name: 'description',
       content:
-        'Welcome to Tasks - your go-to app for managing tasks efficiently and staying organized. Plan, track, and accomplish your daily goals with ease. Explore features designed to boost productivity and streamline your workflow.'
+        'Welcome to ./dailyTasks - your go-to app for managing tasks efficiently and staying organized. Plan, track, and accomplish your daily goals with ease. Explore features designed to boost productivity and streamline your workflow.'
     },
     {
       name: 'keywords',
@@ -30,12 +30,12 @@ export const metaConfig = {
     { name: 'googlebot', content: 'index, follow' },
     {
       property: 'og:title',
-      content: 'Tasks'
+      content: './dailyTasks'
     },
     {
       property: 'og:description',
       content:
-        'Tasks is your ultimate productivity companion, helping you manage tasks, track progress, and achieve your daily goals effortlessly.'
+        './dailyTasks is your ultimate productivity companion, helping you manage tasks, track progress, and achieve your daily goals effortlessly.'
     },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://da-dailytasks.vercel.app/' },
@@ -43,12 +43,12 @@ export const metaConfig = {
     { property: 'twitter:card', content: 'summary_large_image' },
     {
       property: 'twitter:title',
-      content: 'Tasks'
+      content: './dailyTasks'
     },
     {
       property: 'twitter:description',
       content:
-        'Stay on top of your tasks and boost your productivity with Tasks - the ultimate task management app.'
+        'Stay on top of your tasks and boost your productivity with ./dailyTasks - the ultimate task management app.'
     },
     {
       property: 'twitter:image',
