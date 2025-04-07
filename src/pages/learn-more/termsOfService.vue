@@ -3,7 +3,7 @@
     <h1 class="mb-6 text-3xl font-bold">Terms of Service</h1>
 
     <p class="mb-4">
-      Welcome to ./dailytasks! By using our platform, you agree to the following
+      Welcome to Tasks! By using our platform, you agree to the following
       terms and conditions. Please read them carefully.
     </p>
 
@@ -37,7 +37,7 @@
     <h2 class="mb-4 mt-8 text-2xl font-semibold">Intellectual Property</h2>
     <p class="mb-4">
       All content, trademarks, and logos on our platform are the property of
-      ./dailytasks. You may not use or reproduce them without prior written
+      Tasks. You may not use or reproduce them without prior written
       consent.
     </p>
 
